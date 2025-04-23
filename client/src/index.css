@@ -1,0 +1,390 @@
+/* login css */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.login-form {
+  background: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px #ccc;
+  width: 300px;
+  text-align: center;
+}
+
+.login-form input {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+}
+
+.login-form button {
+  padding: 10px;
+  width: 100%;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.login-form .error {
+  color: red;
+  margin-top: 10px;
+}
+/* signup css */
+.signup-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #eef1f7;
+}
+
+.signup-form {
+  background: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px #aaa;
+  width: 300px;
+  text-align: center;
+}
+
+.signup-form input {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+}
+
+.signup-form button {
+  padding: 10px;
+  width: 100%;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.signup-form .error {
+  color: red;
+  margin-top: 10px;
+}
+/* home filter header */
+.search-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 12px 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  width: 100%;
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+.search-input {
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+
+.search-input input {
+  border: none;
+  outline: none;
+  padding: 10px 12px;
+  font-size: 16px;
+  width: 100%;
+}
+
+.search-icon {
+  height: 20px;
+  margin-right: 10px;
+}
+
+.filter-btn {
+  display: flex;
+  align-items: center;
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 500;
+  color: #333;
+}
+
+.filter-icon {
+  height: 18px;
+  margin-right: 6px;
+}
+/* postcart */
+.post-card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 16px;
+  max-width: 500px;
+  margin: 20px auto;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.post-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 12px;
+}
+
+.user-info {
+  flex-grow: 1;
+}
+
+.username {
+  font-size: 14px;
+  color: #8e8e8e;
+  margin-top: 4px;
+}
+
+.dots {
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.post-text {
+  font-size: 15px;
+  color: #333;
+  margin: 12px 0;
+}
+
+.read-more {
+  color: #1a73e8;
+  cursor: pointer;
+}
+
+.post-img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  margin-top: 8px;
+}
+
+.post-actions {
+  display: flex;
+  justify-content: space-around;
+  color: #666;
+  font-size: 14px;
+
+  display: flex !important;
+    gap: 5px !important;
+    font-size: 20px !important;
+}
+
+/* product slider */
+/* SimpleSlider.css */
+/* .slider-container {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  overflow-x: auto;
+  white-space: nowrap;
+  padding: 20px;
+  scroll-behavior: smooth;
+}
+
+.slider-track {
+  display: flex;
+  gap: 20px;
+}
+
+.slide {
+  display: inline-block;
+  width: 250px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  padding-bottom: 10px;
+  transition: transform 0.3s ease;
+}
+
+.slide img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 10px 10px 0 0;
+}
+
+.slide:hover {
+  transform: translateY(-5px);
+}
+
+.caption {
+  padding: 8px 12px 0;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.price {
+  padding: 0 12px;
+  font-weight: bold;
+  color: #333;
+} */
+/* 
+.slider-wrapper {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.slider-container {
+  overflow-x: auto;
+  scroll-behavior: smooth;
+}
+
+.slider-track {
+  display: flex;
+  gap: 20px;
+  padding: 20px 0;
+  width: max-content;
+}
+
+.slide {
+  flex: 0 0 auto;
+  width: 250px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  padding-bottom: 10px;
+  transition: transform 0.3s ease;
+}
+
+.slide img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 10px 10px 0 0;
+}
+
+.slide:hover {
+  transform: translateY(-5px);
+}
+
+.caption {
+  padding: 8px 12px 0;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.price {
+  padding: 0 12px;
+  font-weight: bold;
+  color: #333;
+} */
+/* .slider-wrapper {
+  position: relative;
+  width: 300px;
+  height: 400px; 
+  overflow: hidden;
+}
+
+.slider-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column; 
+  overflow: hidden;
+}
+
+.slider-track {
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.3s ease;
+}
+
+.slide {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.slide img {
+  width: 100%;
+  height: auto;
+}
+
+.caption {
+  text-align: center;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.price {
+  text-align: center;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.slider-container:hover .slider-track {
+  transform: translateY(-100%); 
+} */
+
+.slider-container {
+  overflow-x: auto;
+  white-space: nowrap;
+  padding: 40px 20px;
+  background-color: #f9f9f9;
+}
+
+.slider {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 10px;
+  width: 200px;
+  flex-shrink: 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.title {
+  font-size: 14px;
+  margin: 10px 0 5px;
+}
+
+.price {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.stars {
+  color: orange;
+}

@@ -1,0 +1,20 @@
+<svg id="Component_39_2_" data-name="Component 39 (2)" xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26">
+  <rect id="Rectangle_1829" data-name="Rectangle 1829" width="26" height="26" fill="none"/>
+  <g id="Group_26" data-name="Group 26">
+    <line id="Line_5" data-name="Line 5" x2="15" transform="translate(5.5 6.5)" fill="none" stroke="#303030" stroke-width="1.5"/>
+    <line id="Line_6" data-name="Line 6" x2="15" transform="translate(5.5 12.5)" fill="none" stroke="#303030" stroke-width="1.5"/>
+    <line id="Line_7" data-name="Line 7" x2="15" transform="translate(5.5 18.5)" fill="none" stroke="#303030" stroke-width="1.5"/>
+    <g id="Ellipse_4" data-name="Ellipse 4" transform="translate(7 4)" fill="#fbfbfb" stroke="#303030" stroke-width="1">
+      <circle cx="2.5" cy="2.5" r="2.5" stroke="none"/>
+      <circle cx="2.5" cy="2.5" r="2" fill="none"/>
+    </g>
+    <g id="Ellipse_5" data-name="Ellipse 5" transform="translate(14 10)" fill="#fbfbfb" stroke="#303030" stroke-width="1">
+      <circle cx="2.5" cy="2.5" r="2.5" stroke="none"/>
+      <circle cx="2.5" cy="2.5" r="2" fill="none"/>
+    </g>
+    <g id="Ellipse_6" data-name="Ellipse 6" transform="translate(8 16)" fill="#fbfbfb" stroke="#303030" stroke-width="1">
+      <circle cx="2.5" cy="2.5" r="2.5" stroke="none"/>
+      <circle cx="2.5" cy="2.5" r="2" fill="none"/>
+    </g>
+  </g>
+</svg>

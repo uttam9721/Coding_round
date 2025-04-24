@@ -84,7 +84,7 @@
   border-radius: 12px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
   width: 100%;
-  max-width: 600px;
+  max-width: 500px;
   margin: 20px auto;
 }
 
@@ -190,158 +190,6 @@
     font-size: 20px !important;
 }
 
-/* product slider */
-/* SimpleSlider.css */
-/* .slider-container {
-  text-align: center;
-  align-items: center;
-  justify-content: center;
-  overflow-x: auto;
-  white-space: nowrap;
-  padding: 20px;
-  scroll-behavior: smooth;
-}
-
-.slider-track {
-  display: flex;
-  gap: 20px;
-}
-
-.slide {
-  display: inline-block;
-  width: 250px;
-  background: #fff;
-  border-radius: 10px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-  padding-bottom: 10px;
-  transition: transform 0.3s ease;
-}
-
-.slide img {
-  width: 100%;
-  height: 180px;
-  object-fit: cover;
-  border-radius: 10px 10px 0 0;
-}
-
-.slide:hover {
-  transform: translateY(-5px);
-}
-
-.caption {
-  padding: 8px 12px 0;
-  font-weight: 500;
-  font-size: 14px;
-}
-
-.price {
-  padding: 0 12px;
-  font-weight: bold;
-  color: #333;
-} */
-/* 
-.slider-wrapper {
-  width: 100%;
-  max-width: 1000px;
-  margin: 0 auto;
-  overflow: hidden;
-}
-
-.slider-container {
-  overflow-x: auto;
-  scroll-behavior: smooth;
-}
-
-.slider-track {
-  display: flex;
-  gap: 20px;
-  padding: 20px 0;
-  width: max-content;
-}
-
-.slide {
-  flex: 0 0 auto;
-  width: 250px;
-  background: #fff;
-  border-radius: 10px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-  padding-bottom: 10px;
-  transition: transform 0.3s ease;
-}
-
-.slide img {
-  width: 100%;
-  height: 180px;
-  object-fit: cover;
-  border-radius: 10px 10px 0 0;
-}
-
-.slide:hover {
-  transform: translateY(-5px);
-}
-
-.caption {
-  padding: 8px 12px 0;
-  font-weight: 500;
-  font-size: 14px;
-}
-
-.price {
-  padding: 0 12px;
-  font-weight: bold;
-  color: #333;
-} */
-/* .slider-wrapper {
-  position: relative;
-  width: 300px;
-  height: 400px; 
-  overflow: hidden;
-}
-
-.slider-container {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  flex-direction: column; 
-  overflow: hidden;
-}
-
-.slider-track {
-  display: flex;
-  flex-direction: column;
-  transition: transform 0.3s ease;
-}
-
-.slide {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-.slide img {
-  width: 100%;
-  height: auto;
-}
-
-.caption {
-  text-align: center;
-  font-size: 16px;
-  margin-top: 10px;
-}
-
-.price {
-  text-align: center;
-  font-size: 14px;
-  margin-top: 5px;
-}
-
-.slider-container:hover .slider-track {
-  transform: translateY(-100%); 
-} */
-
 .slider-container {
   overflow-x: auto;
   white-space: nowrap;
@@ -387,4 +235,246 @@
 
 .stars {
   color: orange;
+}
+.fix-flex{
+  display: flex;
+  justify-content: space-between;
+}
+/* right side bar */
+.sidebar {
+  width: 250px;
+  height: 100vh;
+  background-color: #f8f9fa;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px 0;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  font-family: sans-serif;
+}
+
+.logo {
+  text-align:start;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.menu {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  padding-left: 20px;
+}
+
+.menu-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #555;
+  cursor: pointer;
+}
+
+.menu-item.active {
+  font-weight: bold;
+  color: #000;
+  position: relative;
+}
+
+.menu-item.active::before {
+  content: "";
+  width: 4px;
+  height: 20px;
+  background-color: #4fd1c5;
+  position: absolute;
+  left: -20px;
+  border-radius: 10px;
+}
+
+.logout {
+  padding-left: 20px;
+  color: #4fd1c5;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top:100px;
+}
+
+.footer {
+  font-size: 10px;
+  color: #999;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+.styling{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* rightsidebar */
+.seller-container {
+  width: 215px;
+  padding: 20px;
+  font-family: sans-serif;
+}
+
+.become-seller-btn {
+  background-color: #8ac7b9;
+  color: white;
+  padding: 12px;
+  text-align: center;
+  border-radius: 8px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.tabs {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 16px;
+  font-weight: bold;
+}
+
+.tabs span {
+  cursor: pointer;
+  padding-bottom: 5px;
+}
+
+.tabs .active {
+  border-bottom: 2px solid #555;
+}
+
+.profile-card {
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 16px;
+  height: 100px;
+  color: white;
+}
+
+.profile-card img.bg {
+  width: 100%;
+  height: 100px;
+  object-fit: cover;
+}
+
+.profile-info {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.profile-info img.avatar {
+  width: 30px;
+  height: 30px;
+  border-radius: 20%;
+  border: 2px solid white;
+}
+
+.profile-info .details {
+  font-size: 12px;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: space-between;
+  font-size: 10px;
+  color: gray;
+  margin-top: 20px;
+}
+/* fix scrolling */
+
+body, html, #root {
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
+.styling {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+
+.left, .right {
+  width: 250px;
+  background-color: #f5f5f5;
+  flex-shrink: 0;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+}
+.center {
+  overflow-y: auto;
+  height: 100vh;
+  background-color: #ffffff;
+  scrollbar-width: none; 
+  -ms-overflow-style: none; 
+}
+.center::-webkit-scrollbar {
+  display: none;
+}
+.scroll-container {
+  margin: 20px;
+  padding: 10px;
+  background-color: #f2f2f2;
+  width: 500px;
+}
+
+.scroll-list {
+  display: flex;
+  overflow-x: auto;
+  gap: 16px;
+  padding: 10px 0;
+  scrollbar-width: thin;
+  scrollbar-color: #888 transparent;
+}
+
+.scroll-list::-webkit-scrollbar {
+  height: 8px;
+}
+
+.scroll-list::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 10px;
+}
+
+.scroll-list::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.scroll-item {
+  flex: 0 0 auto;
+  width: 150px;
+  text-align: center;
+}
+
+.scroll-item img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+/* y scrollbar */
+.scroll-list {
+  display: flex;
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+  gap: 16px;
+  padding-bottom: 10px;
+  scrollbar-width: none; 
+  -ms-overflow-style: none;
+}
+
+.scroll-list::-webkit-scrollbar {
+  display: none;
 }
